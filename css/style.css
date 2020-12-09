@@ -10802,7 +10802,7 @@ body.noScroll {
 .vert {
   /*display: table-cell;
   vertical-align: middle;*/
- position: relative; top: 35%;}
+ position: absolute; top: 35%;}
 
 .col-20 {
   flex: 0 0 20%;
