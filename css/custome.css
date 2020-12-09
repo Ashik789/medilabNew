@@ -1,0 +1,60 @@
+.radius{border-radius: 7px;}
+.work-time p span{float: right;}
+.work-time p{margin-bottom: 10px;}
+.work-time .over-image-card-text{width: 100%;}
+.footer-logo{margin-bottom: 10px;}
+.footer-logo img{max-height: 100px;}
+.footer-special li{list-style: none; font-size: 14px; line-height: 24px; margin-bottom: 8px;}
+.footer-bottom span{padding: 0px 10px;}
+.about-us .header-content{position: relative; top:0px;padding: 30px 0px; min-height: 300px;}
+.about-us .header-content.stuck{position: fixed; background:#fff;}
+.about-us .sticky-wrapper{background:url(../images/inner-bgm.jpg) no-repeat; background-size:100%;}
+.border-radius5{border-radius: 5px;}
+.mt-top30{margin-top:30px;}
+.mr-bot50{margin-bottom: 50px;}
+.gallery-overlay {position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: .5s ease; background-color: rgba(83, 177, 71, 0.75);}
+.gallery-icon {color: #fff;font-size: 24px;position: absolute;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);text-align: center;}
+.gallery-smiles .gallery-item:hover .gallery-overlay{opacity: 1;}
+.gallery-smiles .gallery-item img{ transition: .5s ease;}
+.gallery-smiles .gallery-item:hover img{ transform: scale(1.5);}
+.type-sound{margin: 0px; padding: 30px 0px;}
+.type-sound img{max-width: 100%;}
+.clearfix{width: 100%; height: 50px; position: relative;}
+.polyclinic .doctor-box{padding: 15px; min-height: 152px;}
+/*.contact-map iframe{filter: grayscale(100%); -webkit-filter:grayscale(100%);}*/
+.contact-border{ box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); padding: 20px; min-height: 279px;}
+.contact-border.bgm{background:rgb(83, 177, 71); color:#fff;}
+.contact-border.bgm h5, .contact-border.bgm i, .contact-border.bgm .theme-color{color:#fff !important;}
+.contact-border.bgm .h-decor{background:#fff;}
+.scanning .faq-item .faq-item-content > * { padding: 30px 40px 30px 0px; }
+.link-drop-title .icon-close{opacity: 0;}
+.about-us .header-content.stuck{padding: 15px 0px; min-height: inherit;}
+.footer-branches{background: #f1f1f1; padding: 30px 0px;}
+.footer-branches p{margin: 0px; font-size:12px; line-height: 20px;}
+.footer-branches h5{margin-bottom: 10px;}
+.contact-branches li{font-size: 12px; line-height: 20px;}
+.contact-branches ul{margin-bottom: 30px;}
+
+@media  (max-width: 1024px){
+    .about-us .header-content{min-height: 250px;}
+}
+
+
+@media  (max-width: 768px){
+    .polyclinic img{margin-bottom: 30px; margin-top: 30px;}
+    .about-us .header-content{min-height: 190px;}
+    .link-drop-title .icon-close{float: right; font-size:24px; color:rgb(83, 177, 71); opacity: 1;}
+}
+
+@media  (max-width: 767px){
+    .quickLinks .col > .link{min-height: inherit; padding: 5px 12px;}
+    #mainSlider .slide-content{padding-bottom: 30px;}
+    .about-us .sticky-wrapper {background: url(../images/inner-bgm.jpg) center; background-size: cover;}
+    .type-sound img{margin-bottom: 20px;}
+    .polyclinic .doctor-box{min-height: inherit;}
+    .clearfix{height: 30px;}
+    .scanning .faq-item .faq-item-content > *{padding: 30px 15px 30px 0px;}
+    .vert{vertical-align: middle;}
+    .footer-branches h5{margin-top: 20px;}
+    .navbar-toggler{top: 30px !important}
+}

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="description" content="">
+	<title>MedilabS || Diagnostic Laboratory</title>
+	<!-- Stylesheets -->
+	<link href="vendor/slick/slick.css" rel="stylesheet">
+	<link href="vendor/animate/animate.min.css" rel="stylesheet">
+	<link href="icons/style.css" rel="stylesheet">
+	<link href="vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="color/color.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="css/custome.css" rel="stylesheet">
+	<!--Favicon-->
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+</head>
+
+<body class="shop-page about-us">
+<!--header-->
+<header class="header">
+	<div class="header-quickLinks js-header-quickLinks d-lg-none">
+		<div class="quickLinks-top js-quickLinks-top"></div>
+		<div class="js-quickLinks-wrap-m">
+		</div>
+	</div>
+	<div class="header-topline d-none d-lg-flex">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-auto d-flex align-items-center">
+					<div class="header-info"><i class="icon-placeholder2"></i>Nr.Police Station, Payyanur, Kannur</div>
+					<div class="header-phone"><i class="icon-telephone"></i><a href="tel:04985327600"> 04985-327600</a>
+                    </div>
+					<div class="header-info"><i class="icon-black-envelope"></i><a href="mailto:medilabs@outlook.com">medilabs@outlook.com</a></div>
+				</div>
+				<div class="col-auto ml-auto d-flex align-items-center">
+						<span class="header-social">
+							<a href="https://www.facebook.com/Medilabs.org/" class="hovicon"><i class="icon-facebook-logo-circle"></i></a>
+							<a href="https://www.instagram.com/medilabs_diagnostic_laboratory/" class="hovicon"><i class="icon-instagram-circle"></i></a>
+							<a href="#" class="hovicon"><i class="icon-twitter-logo-circle"></i></a>
+						</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header-content">
+		<div class="container">
+			<div class="row align-items-lg-center">
+				<button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarNavDropdown">
+					<span class="icon-menu"></span>
+				</button>
+				<div class="col-lg-auto col-lg-2 d-flex align-items-lg-center">
+					<a href="index.html" class="header-logo"><img src="images/logo.png" alt="" class="img-fluid"></a>
+				</div>
+				<div class="col-lg ml-auto header-nav-wrap">
+					<div class="header-nav js-header-nav">
+						<nav class="navbar navbar-expand-lg btco-hover-menu">
+							<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+								<ul class="navbar-nav">
+                                    <li class="nav-item">
+										<a class="nav-link" href="index.html">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="about.html">About Us</a>
+									</li>
+									<li class="nav-item">
+										<a href="department.html" class="nav-link">Departments</a>
+									</li>
+									<li class="nav-item active">
+										<a href="javaScript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">Branch</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="scanning.html">Scanning</a></li>
+											<li><a class="dropdown-item" href="poluclinic.html">Poly Clinic</a></li>
+										</ul>
+									</li>
+                                    <li class="nav-item">
+										<a href="gallery.html" class="nav-link">Gallery</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="contact-us.html">Contact Us</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!--//header-->
+<!--quick links-->
+    <div class="quickLinks-wrap js-quickLinks-wrap-d d-none d-lg-flex">
+			<div class="quickLinks js-quickLinks closed">
+				<div class="container">
+					<div class="row no-gutters">
+						<div class="col">
+							<a href="#" class="link">
+								<i class="icon-pencil-writing"></i><span>Book an Appointment</span>
+							</a>
+							<div class="link-drop">
+								<h5 class="link-drop-title"><i class="icon-pencil-writing"></i>Book An Appointment                                      <a href="#" class="link"><i class="icon-close"></i></a>                                 </h5>
+								<form id="requestForm" method="post" novalidate>
+									<div class="successform">
+										<p>Your message was sent successfully!</p>
+									</div>
+									<div class="errorform">
+										<p>Something went wrong, try refreshing and submitting the form again.</p>
+									</div>
+									<div class="input-group">
+											<span>
+											<i class="icon-user"></i>
+										</span>
+										<input name="requestname" type="text" class="form-control" placeholder="Your Name"/>
+									</div>
+									<div class="row row-sm-space mt-1">
+										<div class="col">
+											<div class="input-group">
+													<span>
+													<i class="icon-email2"></i>
+												</span>
+												<input name="requestemail" type="text" class="form-control" placeholder="Your Email"/>
+											</div>
+										</div>
+										<div class="col">
+											<div class="input-group">
+													<span>
+													<i class="icon-smartphone"></i>
+												</span>
+												<input name="requestphone" type="text" class="form-control" placeholder="Your Phone"/>
+											</div>
+										</div>
+									</div>
+									<div class="selectWrapper input-group mt-1">
+											<span>
+											<i class="icon-micro"></i>
+										</span>
+										<select name="requestservice" class="form-control">
+											<option selected="selected" disabled="disabled">Select Service</option>
+											<option value="Molecular Testing & Oncology">Molecular Testing & Oncology</option>
+											<option value="Histology">Histology</option>
+											<option value="General Diagnostic Tests">General Diagnostic Tests</option>
+											<option value="Naturopathic">Naturopathic</option>
+											<option value="Genetics Tests">Genetics Tests</option>
+											<option value="Cytology">Cytology</option>
+										</select>
+									</div>
+									<div class="row row-sm-space mt-1">
+										<div class="col-sm-6">
+											<div class="input-group flex-nowrap">
+													<span>
+														<i class="icon-calendar2"></i>
+													</span>
+												<div class="datepicker-wrap">
+													<input name="requestdate" type="text" class="form-control datetimepicker" placeholder="Date" readonly>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-6 mt-1 mt-sm-0">
+											<div class="input-group flex-nowrap">
+													<span>
+															<i class="icon-clock"></i>
+													</span>
+												<div class="datepicker-wrap">
+													<input name="requesttime" type="text" class="form-control timepicker" placeholder="Time" readonly>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="text-right mt-2">
+										<button type="submit" class="btn btn-sm btn-hover-fill">Submit</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--//quick links-->
+<div class="page-content">
+	<!--section-->
+	<div class="section mt-0">
+		<div class="breadcrumbs-wrap">
+			<div class="container">
+				<div class="breadcrumbs">
+					<a href="index.html">Home</a>
+					<a href="javaScript:void(0)">Department</a>
+					<span>Poly Clinic</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//section-->
+    
+    <div class="section page-content-first mr-bot50">
+		<div class="container">
+			<div class="text-center mb-2  mb-md-3 mb-lg-4">
+				<div class="h-sub theme-color">Medilabs diagnostic </div>
+				<h1>Laboratory & Polyclinic </h1>
+				<div class="h-decor"></div>
+			</div>
+		</div>
+		<div class="container polyclinic">
+			<div class="row">
+            <div class="col-lg-6 col-md-12">
+                <p>MedilabS diagnostic laboratory & Polyclinic Cheruvathur is a leading health care sector in Cheruvathur, Kerala.</p>
+                <p>We are operating with a fully automated analyzer which reduces manual error and gives perfect and fast results. We are capable of doing Biochemistry, immunology, serology, and microbiology related testes. We have a good squad for the Pathology department. We are so much confident about the detection of diseases through Pathology lab tests. Here we are using international standard quality measures that will give customers a perfect result. We have a wide range of products/services that will be useful to the customers and will avoid them to go far hospitals. Here each and every employee are dedicated to their roles and put in a lot of effort to achieve the common vision and larger goals of the company. In the near future, this business aims to expand its line of products and services and cater to a larger client base.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 text-center">
+                <img src="images/polyclinic-1.jpg" class="img-fluid border-radius5">
+                </div> 
+                <div class="clearfix"></div>
+            <div class="col-lg-6 col-md-12 text-center">
+                <img src="images/polyclinic-2.jpg" class="img-fluid border-radius5">
+                </div> 
+                <div class="col-lg-6 col-md-12">
+                <p>Our Polyclinic occupies a prominent location in Cheruvathur. It is an effortless task in commuting to this establishment as there are various modes of transport readily available. It is at Padanna road opposite to the fish market, which makes it easy for first time visitors to locating this establishment.</p>
+                <p>It is known to provide top services in the following categories: All kinds of lab tests that we detailed above, speciality and super speciality doctors, 12 channel digital ECG, advanced digital X-ray. Customers can easily park their vehicles in our large parking area.</p>
+                <p>The staff at this establishment are courteous and prompt at providing any assistance. They readily answer any queries or questions that you may have. Pay for the product or services with ease by using any of the available modes of payment.<strong class="theme-color"> This establishment is functional from 7.30 AM to 7 PM(SUNDAY 7.30 AM-1.00 PM).</strong></p>
+            </div>
+            </div>
+			<div class="clearfix"></div>
+            <div class="row">
+                <div class="col-md-12">
+                <h4>Speciality Clinics </h4>
+                </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class="doctor-box text-center">
+						<h5 class="doctor-box-name">Department of Paediatry</h5>
+						<div class="doctor-box-position">Mon - Sat 10.00am to 12:30pm</div>
+						<div class="doctor-box-text">
+							<p> Dr. K.C Ramachandran MBBS, DCH, Civil Surgeon (RTD)</p>
+						</div>
+					</div>    
+            </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class="doctor-box text-center">
+						<h5 class="doctor-box-name"> Ortho Specialist</h5>
+						<div class="doctor-box-position">Mon - Sat</div>
+						<div class="doctor-box-text">
+							<p></p>
+						</div>
+					</div>    
+            </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class="doctor-box text-center">
+						<h5 class="doctor-box-name"> General Medicine</h5>
+						<div class="doctor-box-position">Mon - Sat 3:30pm to 5:30pm</div>
+						<div class="doctor-box-text">
+							<p> Dr Saleem E MBBS, MD, General MED</p>
+						</div>
+					</div>    
+            </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class="doctor-box text-center">
+						<h5 class="doctor-box-name"> Dermatology / Skin Specialist </h5>
+					</div>    
+            </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class="doctor-box text-center">
+						<h5 class="doctor-box-name"> Allergy & Asthma Clinic</h5>
+						<div class="doctor-box-position">Friday 4:00pm</div>
+					</div>    
+            </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class="doctor-box text-center">
+						<h5 class="doctor-box-name"> Psychiatry &amp; Counsiling Department </h5>
+						<div class="doctor-box-position"> Mon, Wed</div>
+					</div>    
+            </div>
+                <div class="col-md-12 mt-top30">
+                <h4>Our Visiting Doctors </h4>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class="doctor-box text-center">
+						<h5 class="doctor-box-name">  Department of Urology</h5>
+						<div class="doctor-box-position"> Mangala Kidney Foundation Mangalore</div>
+						<div class="doctor-box-text">
+							<p> Dr. Moideen Nafseer T.A MBBS, MS(Surgery), Urology, Laproscopic Suregeon</p>
+						</div>
+					</div>    
+            </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class="doctor-box text-center">
+						<h5 class="doctor-box-name"> Neurology Department</h5>
+						<div class="doctor-box-position"> KMC Hospital Mangalore</div>
+						<div class="doctor-box-text">
+							<p> Dr Shivanadapai MD, DM, Neurology</p>
+						</div>
+					</div>    
+            </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class="doctor-box text-center">
+						<h5 class="doctor-box-name"> Gastroenterology Department </h5>
+						<div class="doctor-box-position"> Indira  Hospital Mangalore</div>
+						<div class="doctor-box-text">
+							<p> Dr. Hyder MBB, MD, DNB (Ganstroenterology)</p>
+						</div>
+					</div>    
+            </div>
+            </div>
+		</div>
+	</div>
+    
+  
+    
+</div>
+<!--footer-->
+<div class="footer mt-0">
+	<div class="container">
+		<div class="row py-1 py-md-2 px-lg-0">
+			<div class="col-lg-4 footer-col1 pt-lg-3">
+				<div class="row flex-column flex-md-row flex-lg-column">
+					<div class="col-md col-lg-auto">
+						<div class="footer-logo">
+							<img src="images/logo.png" alt="" class="img-fluid">
+						</div>
+						<div class="mt-2 mt-lg-0"></div>
+						<div class="footer-social d-none d-md-block d-lg-none">
+							<a href="javaScript:void(0)" target="blank" class="hovicon"><i class="icon-facebook-logo"></i></a>
+							<a href="javaScript:void(0)" target="blank" class="hovicon"><i class="icon-twitter-logo"></i></a>
+							<a href="javaScript:void(0)" target="blank" class="hovicon"><i class="icon-google-logo"></i></a>
+							<a href="javaScript:void(0)" target="blank" class="hovicon"><i class="icon-instagram"></i></a>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="footer-text mt-1 mt-lg-1">
+							
+								
+							<form action="#" class="footer-subscribe">
+								<div class="input-group">
+									<input name="subscribe_mail" type="text" class="form-control" placeholder="Your Email"/>
+									<span><i class="icon-black-envelope"></i></span>
+								</div>
+							</form>
+						</div>
+						<div class="footer-social d-md-none d-lg-block">
+							<a href="https://www.facebook.com/Medilabs.org/" target="blank" class="hovicon"><i class="icon-facebook-logo"></i></a>
+							<a href="javaScript:void(0)" target="blank" class="hovicon"><i class="icon-twitter-logo"></i></a>
+							<a href="https://www.instagram.com/medilabs_diagnostic_laboratory/" target="blank" class="hovicon"><i class="icon-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-4 footer-special">
+				<h3>Our Special Packages</h3>
+				<div class="h-decor"></div>
+				<li>Basic Health CheckUp</li>
+				<li>Well Women CheckUp</li>
+				<li>Child Health CheckUp</li>
+				<li>Executive Health CheckUp</li>
+				<li>Proactive Health CheckUp</li>
+				<li>Senior Citizen Health CheckUp</li>
+			</div>
+			<div class="col-sm-6 col-lg-4">
+				<h3>Head Office</h3>
+				<div class="h-decor"></div>
+				<ul class="icn-list">
+					<li><i class="icon-placeholder2"></i>Nr.Police Station, Payyanur, Kannur
+                    <br>
+                        <a href="contact-us.html" class="btn btn-xs btn-gradient"><i class="icon-placeholder2"></i><span>Get directions on the map</span><i class="icon-right-arrow"></i></a>
+                    </li>
+					<li><i class="icon-telephone"></i><b><span class="phone"><span class="text-nowrap">(04985) 327600</span>, <span class="text-nowrap">206660</span></span></b>
+						<br>(24/7 General inquiry)
+					</li>
+					<li><i class="icon-black-envelope"></i><a href="mailto:medilabs@outlook.com">medilabs@outlook.com</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+    <div class="footer-branches">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-3">
+    <h5>Poly Clinic</h5>
+    <p>Orimuku- kadappuram Road Opposite Fish Market Near Vijaya Bank, Cheruvathur, Kerala 671313</p>
+    <p>+91 46722 63900</p>    
+    </div>
+    <div class="col-md-3">
+    <h5>Lab</h5>
+    <p>Main Road, Karivellur, Kerala 670521</p>
+    <p>+91 49852 63570</p>    
+    </div>
+    <div class="col-md-3">
+    <h5>Lab</h5>
+    <p>Pariyaram, Kerala 670521</p>
+    <p>+91 49852 63570</p>    
+    </div> 
+    <div class="col-md-3">
+    <h5>Ultrasound Scanner</h5>
+    <p>Payyannur, Kerala 670521</p>
+    <p>+91 49852 63570</p>    
+    </div>    
+    </div>    
+    </div>
+    </div>
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="row text-center text-md-center">
+				<div class="col-sm">Copyright © 2020 <a href="index.html">MedilabS</a> <span>|</span> developed by  <a href="https://xeventure.com/" target="_blank">xeventure</a></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--//footer-->
+<div class="backToTop js-backToTop">
+	<i class="icon icon-up-arrow"></i>
+</div>
+<!-- Vendors -->
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="vendor/jquery-migrate/jquery-migrate-3.0.1.min.js"></script>
+<script src="vendor/bootstrap-datetimepicker/moment.js"></script>
+<script src="vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
+<script src="vendor/popper/popper.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/waypoints/jquery.waypoints.min.js"></script>
+<script src="vendor/waypoints/sticky.min.js"></script>
+<script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/scroll-with-ease/jquery.scroll-with-ease.min.js"></script>
+<script src="vendor/countTo/jquery.countTo.js"></script>
+<script src="vendor/form-validation/jquery.form.js"></script>
+<script src="vendor/form-validation/jquery.validate.min.js"></script>
+<script src="vendor/isotope/isotope.pkgd.min.js"></script>
+       
+<!-- Custom Scripts -->
+<script src="js/app.js"></script>
+    
+</body>
+</html>
