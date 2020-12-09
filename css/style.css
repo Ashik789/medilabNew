@@ -10800,8 +10800,9 @@ body.noScroll {
   z-index: 1; }
 
 .vert {
-  display: table-cell;
-  vertical-align: middle; }
+  /*display: table-cell;
+  vertical-align: middle;*/
+ position: relative; top: 35%;}
 
 .col-20 {
   flex: 0 0 20%;
