@@ -12223,6 +12223,10 @@ body.noScroll {
 #mainSlider,
 #mainSlider .img--holder {
   height:900px; }
+  @media (max-width: 1450px) {
+    #mainSlider,
+    #mainSlider .img--holder {
+      height: 650px; } }
   @media (max-width: 1229px) {
     #mainSlider,
     #mainSlider .img--holder {
